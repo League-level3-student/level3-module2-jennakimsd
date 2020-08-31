@@ -22,6 +22,7 @@ public class InsertionSorter extends Sorter {
 					 int temp = array[j-1]; 
 	                 array[j-1] = array[j]; 
 	                 array[j] = temp;  
+	                 display.updateDisplay();
 				}
 			}
 		}
